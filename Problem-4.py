@@ -10,8 +10,7 @@ def remove_duplicates(arr):
 
 
 def union(arr1,arr2):
-    union_arr = arr1+arr2
-    remove_duplicates(union_arr)
+    union_arr = remove_duplicates(arr1+arr2) 
     return union_arr
 
 
